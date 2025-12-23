@@ -1,0 +1,7 @@
+{
+  "domains": [
+    "accounts.example.com",
+    "cdn.example.com",
+    "static.example.com"
+  ]
+}
